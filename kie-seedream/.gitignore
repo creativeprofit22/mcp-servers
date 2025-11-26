@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Type checking cache
+.mypy_cache/
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Linting cache
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Generated files
+test_results.txt
+*.log
+
+# Local generated images (keep the directory, ignore contents)
+src/generated-images/*
+!src/generated-images/.gitkeep
